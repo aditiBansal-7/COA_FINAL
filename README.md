@@ -41,8 +41,6 @@ Before we begin, ensure you have the following installed on your system:
 To enable communication between the database and the Streamlit app, we will create a custom Docker network in bridge mode.
 
 Run the following command:
-
-```bash
 docker network create my_network
 my_network: The name of the custom network. This network will act as a communication bridge between the containers.
 
